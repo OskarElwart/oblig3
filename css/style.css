@@ -1,6 +1,6 @@
-
-*{
+* {
     box-sizing: border-box;
+    margin: 0;
 }
 
 #navbar {
@@ -22,6 +22,7 @@ body {
 
     width: 100%;
     height: 100%;
+    min-height: 100vh;
 
 }
 
@@ -113,7 +114,7 @@ img {
 
 }
 
-.articleItem{
+.articleItem {
 
     padding: 0 10px 0 10px;
     font-family: 'Lato', sans-serif;
@@ -126,7 +127,7 @@ img {
 #genderContainer {
     display: flex;
     justify-content: space-around;
-    
+
 
 }
 
@@ -139,8 +140,10 @@ img {
 
 }
 
-span { display: flex; 
-    justify-content: center }
+span {
+    display: flex;
+    justify-content: center
+}
 
 .genderBox {
 
@@ -157,7 +160,7 @@ span { display: flex;
 
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .productItem {
@@ -165,4 +168,93 @@ span { display: flex;
     border-bottom: 1px solid black;
     padding-top: 50px;
 }
+
+#bigPortraitContainer {
+
+    background-color: #CFCFCF;
+    display: flex;
+    justify-content: center;
+}
+
+#productImage {
+
+    height: 95%;
+    width: 95%;
+    margin: 10 10 10 10;
+}
+
+#itemPreview {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.previewItem {
+
+    width: 30%;
+    height: 100%;
+
+}
+
+#productInfoContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+
+}
+
+.productTextInfo {
+
+    height: 10%;
+    width: 100%;
+    margin: 5% 25% 5% 25%;
+    text-align: center;
+
+    font-size: 1.5rem;
+
+}
+
+#addToCartFooter {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 10px;
+    bottom: 0;
+
+
+}
+
+#addToCart {
+
+    width: 95%;
+    height: 60px;
+    background-color: #CFCFCF;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    margin: 0% 5% 0% 5;
+    display: inline-block;
+    border: 0 none black;
+
+
+}
+
+#handlekurvWrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 4%;
+
+}
+
+
+
 
